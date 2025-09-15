@@ -56,13 +56,6 @@
     };
 
     macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &to_layer_0 MACRO_PLACEHOLDER>;
-            label = "TO_LAYER_0";
-        };
-
         backquat_alt: backquat_alt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -75,25 +68,6 @@
                 <&kp LALT>;
 
             label = "BACKQUAT_ALT";
-        };
-
-        test: test {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&none>, <&macro_press>;
-
-            label = "TEST";
-        };
-    };
-
-    behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
         };
     };
 
@@ -108,7 +82,7 @@
 &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_WIN  &lt 5 LCTRL  &lt 1 SPACE  &backquat_alt      &kp BACKSPACE  &lt 2 ENTER                               &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp KP_PLUS KP_MINUS>;
+            sensor-bindings = <&inc_dec_kp LC(KP_PLUS) LC(KP_MINUS)>;
         };
 
         FUNCTION {
