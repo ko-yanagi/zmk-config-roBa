@@ -53,6 +53,11 @@
             bindings = <&kp DELETE>;
             key-positions = <8 9>;
         };
+
+        end {
+            bindings = <&kp END>;
+            key-positions = <32 33>;
+        };
     };
 
     macros {
