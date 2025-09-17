@@ -91,10 +91,10 @@
 
         NUM {
             bindings = <
-&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N7        &kp N8        &kp N9                                                     &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp MINUS          &kp PLUS        &kp HASH              &kp AT_SIGN
-&kp LEFT_SHIFT        &kp N0                 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp INSERT                   &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&trans                &trans                 &trans        &trans        &trans        &trans                       &trans          &trans                                                                     &kp PIPE
+&kp LEFT_PARENTHESIS  &kp N7        &kp N8        &kp N9        &kp N9                                                     &kp TILDE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION     &kp NON_US_BACKSLASH
+&kp LEFT_BRACKET      &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp NUMBER_6  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp MINUS             &kp PLUS               &kp HASH         &kp AT_SIGN
+&kp N0                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_3  &kp INSERT                   &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp LEFT_BRACE         &kp RIGHT_BRACE  &kp BACKSLASH
+&kp LEFT_SHIFT        &trans        &trans        &trans        &trans        &trans                       &trans          &trans                                                                          &kp PIPE
             >;
         };
 
