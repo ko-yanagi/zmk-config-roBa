@@ -63,6 +63,11 @@
             bindings = <&kp ESC>;
             key-positions = <0 1>;
         };
+
+        lang {
+            bindings = <&kp LG(LC(SPACE))>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {
