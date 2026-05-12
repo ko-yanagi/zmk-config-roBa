@@ -85,7 +85,7 @@
         };
 
         formal {
-            bindings = <&kp LA(LC(W))>;
+            bindings = <&kp LC(LA(W))>;
             key-positions = <1 2>;
         };
     };
