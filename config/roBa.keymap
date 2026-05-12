@@ -68,6 +68,26 @@
             bindings = <&kp LG(LC(SPACE))>;
             key-positions = <3 4>;
         };
+
+        pageup {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <16 17>;
+        };
+
+        pagedown {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <28 29>;
+        };
+
+        casual {
+            bindings = <&kp LC(LA(R))>;
+            key-positions = <2 3>;
+        };
+
+        formal {
+            bindings = <&kp LA(LC(W))>;
+            key-positions = <1 2>;
+        };
     };
 
     macros {
